@@ -1,0 +1,5 @@
+*.csv
+env/
+*.joblib
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
