@@ -11,3 +11,10 @@ A simple emotion classification using Multinomial Naive Bayes model
     - Huang, Yen-Hao  and
     - Wu, Junlin  and
     - Chen, Yi-Shin
+
+## Model Performance
+| Model | Accuracy | Macroaverage Recall Score | MacroAverage Precision Score | MacroAverage F1 Score |
+|-------|-------|-----------|-------------|-------------|
+| MNB | 87.2% | 76.8% | 87% | 80.1% |
+| Decision Tree(max_depth=500) | 85% | 79.4% | 79.1% | 79.2% |
+| Random Forest(max_depth=250, n_estimators=300) | 87.1% | 79.8% | 82.9% | 81.2% |
