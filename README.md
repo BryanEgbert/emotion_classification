@@ -18,3 +18,4 @@ A simple emotion classification using Multinomial Naive Bayes model
 | MNB | 87.2% | 76.8% | 87% | 80.1% |
 | Decision Tree(max_depth=500) | 85% | 79.4% | 79.1% | 79.2% |
 | Random Forest(max_depth=250, n_estimators=300) | 87.1% | 79.8% | 82.9% | 81.2% |
+| CatBoost(depth=8, estimators=500, learning_rate=0.1) | 90.1% | 82.9% | 90.1% | 90.1% |
